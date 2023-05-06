@@ -2,7 +2,8 @@
 step 1: Run as sudo or root user
 $ sudo apt install git -y
 $ git clone https://github.com/ITOpsSupport/bigfixagent.git
-$ sh ubuntu.sh
+$ cd bigfixagent
+$ sudo sh ubuntu.sh
 
 # About the script
 a. This will check &  disable ipv6 of user machine as besagent communicate over ipv4 only. 
