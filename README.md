@@ -1,5 +1,7 @@
 # To Run this script 
 step 1: Run as sudo or root user
+$ sudo apt install git -y
+$ git clone https://github.com/ITOpsSupport/bigfixagent.git
 $ sh ubuntu.sh
 
 # About the script
