@@ -1,6 +1,9 @@
 # To Run this script 
 step 1: Run as sudo or root user
-$ sh ubuntu.sh
+$ sudo apt install git -y
+$ git clone https://github.com/ITOpsSupport/bigfixagent.git
+$ cd bigfixagent
+$ sudo sh ubuntu.sh
 
 # About the script
 a. This will check &  disable ipv6 of user machine as besagent communicate over ipv4 only. 
