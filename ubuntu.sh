@@ -29,7 +29,7 @@ if dpkg -s $PACKAGE_NAME >/dev/null 2>&1; then
 else
     # Make directory
     mkdir -p /etc/opt/BESClient
-    cp actionsite.afxm /etc/opt/BESClient
+    mv actionsite.afxm /etc/opt/BESClient
 
     # Install package
     sudo dpkg -i $PACKAGE_NAME
